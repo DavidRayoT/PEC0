@@ -1,4 +1,4 @@
-//verifica si tiene edad para conducir
+//Ejercicio 0: verifica si tiene edad para conducir
 export function canDrive(age) {
     if (age >= 18) {
         return true;
@@ -7,9 +7,9 @@ export function canDrive(age) {
     }
 }
 
-//verifica si es un triángulo equilátero
+//Ejercicio 1: verifica si es un triángulo equilátero
 export function isEquilateral(a, b, c) {
-    if ((a === b) && (a === c)){
+    if ((a === b) && (a === c)) {
         return true;
     } else {
         return false;
