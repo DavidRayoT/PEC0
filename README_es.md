@@ -74,7 +74,7 @@ npm t
 
 Los test se lanzarán cada vez que edites el fichero `src/pec/pec0.js`.
 
-### Ejercicio 0 (1p)
+npm t### Ejercicio 0 (1p)
 
 Implementar una función `canDrive` que recibe como parámetro un número llamado `age` y devuelve un valor booleano si la edad es suficiente para conducir en España.
 

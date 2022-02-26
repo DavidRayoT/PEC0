@@ -1,7 +1,21 @@
-export function canDrive(age) {}
+//verifica si tiene edad para conducir
+export function canDrive(age) {
+    if (age >= 18) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
-export function isEquilateral(a, b, c) {}
+//verifica si es un triángulo equilátero
+export function isEquilateral(a, b, c) {
+    if ((a === b) && (a === c)){
+        return true;
+    } else {
+        return false;
+    }
+}
 
-export function sum2(array) {}
+export function sum2(array) { }
 
-export function fibonacci(n) {}
+export function fibonacci(n) { }
