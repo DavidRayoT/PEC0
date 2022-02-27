@@ -17,8 +17,8 @@ export function isEquilateral(a, b, c) {
 }
 
 //Ejercicio 2: función suma aplicada a un array
-export function sum2(array) { 
-    for( let i = 0; i < array.length; i++ ){
+export function sum2(array) {
+    for (let i = 0; i < array.length; i++) {
         array[i] += 2;
     }
     return array;
@@ -26,11 +26,11 @@ export function sum2(array) {
 
 //Ejercicio 3: fibonacci
 export function fibonacci(n) {
-    if(n===0){
+    if (n === 0) {
         return 0;
-    } else if(n ===1){
+    } else if (n === 1) {
         return 1;
-    } else{
-        return (fibonacci(n-1)+fibonacci(n-2));
+    } else {
+        return (fibonacci(n - 1) + fibonacci(n - 2));
     }
- }
+}
